@@ -18,10 +18,19 @@ michelangelo.goto(-100,20)
 leonardo.goto(-100,-20)
 
 ## 5. your code goes here
-list_1=(0,1,2,3,4,5,6,7,8,9,10)
+#SINGLE CALL FORWARD
+michelangelo.forward(34)
+leonardo.forward(81)
+michelangelo.goto(-100,20)
+leonardo.goto(-100,-20)
+leonardo.clear()
+michelangelo.clear()
+
+#TEN CALLS FORWARD
+list_1=(1,2,3,4,5,6,7,8,9,10)
 speed=(random.choice(list_1))
 def turdspeed(turd,go):
-   for i in range(10):
+   for i in range(11):
      michelangelo.forward(go)
      leonardo.forward(go)
 turdspeed(michelangelo,speed)
