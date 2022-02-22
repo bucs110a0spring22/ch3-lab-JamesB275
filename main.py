@@ -18,15 +18,20 @@ michelangelo.goto(-100,20)
 leonardo.goto(-100,-20)
 
 ## 5. your code goes here
-for i in range(10):
-    for speed in [i,i,i,i,i,i,i,i,i,i]:
-      print(michelangelo.forward(speed))
-      print(leonardo.forward(speed))
+list_1=(0,1,2,3,4,5,6,7,8,9,10)
+speed=(random.choice(list_1))
+def turdspeed(turd,go):
+   for i in range(10):
+     michelangelo.forward(go)
+     leonardo.forward(go)
+turdspeed(michelangelo,speed)
+turdspeed(leonardo,speed)
 michelangelo.goto(-100,20)
 leonardo.goto(-100,-20)
 
 # Part B - complete part B here
-michelangelo.goto(-70,20)
+leonardo.hideturtle()
+
 michelangelo.down()
 michelangelo.shape
 michelangelo.color('purple')
@@ -47,6 +52,4 @@ michelangelo.clear()
 drawShape(michelangelo,12)
 michelangelo.clear()
 
-michelangelo.up()
-michelangelo.goto(-100,20)
 window.exitonclick()

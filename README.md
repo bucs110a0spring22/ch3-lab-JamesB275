@@ -8,7 +8,7 @@
 _Replace anything surrounded by the `< >` symbols._
 
 ## SUMMARY:
- < Provide a short description of your program's functionality. No more than a couple sentences. >
+ Did this as best as I could, as far as I can tell it works properly. 
 
 ## GRACE DAYS
 Grace days used for this assignment: 0
@@ -16,10 +16,10 @@ Grace days used for this assignment: 0
 Grace days remaining: 5/5
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- < What parts of the project you were not able to complete >
+ < all parts completed >
 
 ## REFERENCES:
  < List any outside resources used >
 
 ## MISCELLANEOUS COMMENTS:
- < Anything you would like the grader to know >
+ < I used function as well as the for the loop in part B, I hope thats ok. I am also not sure if I programmed the randome thing correctly. >
